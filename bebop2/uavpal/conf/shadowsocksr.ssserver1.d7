@@ -26,9 +26,9 @@ config access_control
 config servers
 	option server_port '3095'
 	option timeout '60'
-	option password '12737878'
+	option password '123456789'
 	option encrypt_method 'rc4-md5'
 	option plugin_obfs_param 'bing.com'
 	option plugin_protocol 'auth_aes128_md5'
-	option server 'per6.top'
+	option server 'xxx7.top'
 	option plugin_obfs 'tls1.2_ticket_auth'
