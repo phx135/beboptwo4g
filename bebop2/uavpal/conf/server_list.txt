@@ -4,4 +4,3 @@
 4 shadowsocksr.ssserver1.d4
 5 shadowsocksr.ssserver1.d5
 6 shadowsocksr.ssserver1.d6
-#7 shadowsocksr.ssserver1.d7
