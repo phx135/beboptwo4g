@@ -1,0 +1,6 @@
+1 shadowsocksr.ssserver1.d1
+2 shadowsocksr.ssserver1.d2
+3 shadowsocksr.ssserver1.d3
+4 shadowsocksr.ssserver1.d4
+5 shadowsocksr.ssserver1.d5
+6 shadowsocksr.ssserver1.d6
