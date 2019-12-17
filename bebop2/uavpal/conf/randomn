@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cmd=$(shuf -e command-1 command-2 -n 1)
+
+case $cmd in
+command-1) /root/reset4 ;;
+command-2) /root/reset6 ;;
+esac
