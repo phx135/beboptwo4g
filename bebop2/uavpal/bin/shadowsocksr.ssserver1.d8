@@ -1,4 +1,4 @@
-#shadowsocksr.ssserver1.d6
+#shadowsocksr.ssserver1.d8
 config general
 	option start_delay '5'
 
