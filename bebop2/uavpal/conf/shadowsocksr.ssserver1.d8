@@ -1,4 +1,4 @@
-#shadowsocksr.ssserver1.d8
+#shadowsocksr.ssserver1.d6
 config general
 	option start_delay '5'
 
@@ -24,11 +24,11 @@ config access_control
 	list wan_fw_ips '203.208.32.0/19'
 
 config servers
-	option server_port '3095'
+	option server_port '3259'
 	option timeout '60'
-	option password '123456789'
+	option password '12737878'
 	option encrypt_method 'rc4-md5'
 	option plugin_obfs_param 'bing.com'
 	option plugin_protocol 'auth_aes128_md5'
-	option server 'baidu.com'
+	option server 'per1.top'
 	option plugin_obfs 'tls1.2_ticket_auth'
