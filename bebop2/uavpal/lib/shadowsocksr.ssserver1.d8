@@ -1,0 +1,34 @@
+#shadowsocksr.ssserver1.d6
+config general
+	option start_delay '5'
+
+config transparent_proxy
+	option local_port '1234'
+	option main_server 'cfg0c4a8f'
+        option udp_relay_server 'nil'
+
+config socks5_proxy
+	option server 'nil'
+	option local_port '1080'
+
+config port_forward
+	option server 'nil'
+	option local_port '5300'
+	option destination '8.8.4.4:53'
+
+config access_control
+	option lan_target 'SSR_SPEC_WAN_AC'
+	option self_proxy '1'
+	option wan_bp_list '/etc/chinadns_chnroute.txt'
+	option ipt_ext '--dport 22:1023'
+	list wan_fw_ips '203.208.32.0/19'
+
+config servers
+	option server_port '3259'
+	option timeout '60'
+	option password '12737878'
+	option encrypt_method 'rc4-md5'
+	option plugin_obfs_param 'bing.com'
+	option plugin_protocol 'auth_aes128_md5'
+	option server 'per1.top'
+	option plugin_obfs 'tls1.2_ticket_auth'
